@@ -1,0 +1,29 @@
+h1, p {
+	text-align:center;
+}
+
+.key1 {
+	background-color:#DDD;
+	border:1px solid black;
+}
+
+.key1:hover {
+	background-color:orange;
+}
+
+input[type=checkbox]:checked + label.key1 {
+	background-color:cyan;
+}
+
+div, input, label {
+	float:left;
+}
+
+.in {
+	display:none;
+}
+
+.in, .key1 {
+	width:100px;
+	height:100px;
+}
